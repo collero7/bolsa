@@ -1,4 +1,4 @@
-import React, { useRef, useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 import './TypeDrink.style.css';
 
 import Drink from '../drink/Drink';
