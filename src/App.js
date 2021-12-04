@@ -1,23 +1,15 @@
-import logo from './logo.svg';
+import React from 'react';
+
+import TypeDrink from './components/typeDrink/TypeDrink';
 import './App.css';
 
+import { dataDrinks } from './utils/constants/data';
+
 function App() {
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="primary-content">
+      <TypeDrink data={dataDrinks}/>
     </div>
   );
 }

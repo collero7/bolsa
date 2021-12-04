@@ -1,0 +1,21 @@
+
+.ul-style {
+    list-style: none;
+    padding-left: 5px !important;
+}
+
+.li-style {
+    /* border: 1px solid green; */
+    font-size: 40px;
+}
+
+.container-elements {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.container-elements span:nth-child(2n) {
+    margin-right: 20px;
+  }

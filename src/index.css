@@ -1,13 +1,26 @@
+
+@font-face {
+  font-family: Matrix;
+  src: url('./fuentes/DOTMATRI.TTF'), 
+       url('./fuentes/DOTMBold.TTF');
+}
+
+@font-face {
+  font-family: AdvancedLed;
+  src: url('./fuentes/advanced_led_board-7.ttf');
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  /* font-family: 'Matrix'; */
+  font-family: 'AdvancedLed';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: black;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
