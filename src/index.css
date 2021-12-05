@@ -1,22 +1,16 @@
 
 @font-face {
-  font-family: Matrix;
-  src: url('./fuentes/DOTMATRI.TTF'), 
-       url('./fuentes/DOTMBold.TTF');
-}
-
-@font-face {
   font-family: AdvancedLed;
   src: url('./fuentes/advanced_led_board-7.ttf');
 }
 
 body {
   margin: 0;
-  /* font-family: 'Matrix'; */
-  font-family: 'AdvancedLed';
+  /* font-family: 'AdvancedLed'; */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: black;
+  font-weight: bold;
 }
 
 code {

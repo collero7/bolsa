@@ -2,11 +2,14 @@
 .ul-style {
     list-style: none;
     padding-left: 5px !important;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 .li-style {
     /* border: 1px solid green; */
-    font-size: 40px;
+    font-size: 55px;
+    height: 54px;
 }
 
 .container-elements {
@@ -18,4 +21,27 @@
 
 .container-elements span:nth-child(2n) {
     margin-right: 20px;
-  }
+}
+
+.styled-icon svg {
+    width: 40px !important;
+    margin-left: 10px;
+}
+
+.container-footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.styled-count {
+    font-family: monospace;
+    font-size: 100px;
+    /* letter-spacing: -2px; */
+    margin-top: 20px;
+}
+
+.styled_logo {
+    margin-top: 20px;
+    width: 130px;
+}

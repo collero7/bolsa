@@ -3,66 +3,75 @@ export const dataDrinks = {
     drinks: [
         {
             scenary: 1,
-            time: 900000,
             contain: [
                 {
                     type: "RON",
                     drinks: [
                         {
                             drink: "Barceló",
-                            price: "3,60",
-                            status: 1
+                            price: "2,50",
+                            status: -1,
+                            blink: true
                         },
                         {
                             drink: "Brugal",
-                            price: "3,40",
-                            status: 1
+                            price: "4,00",
+                            status: 1,
+                            blink: false
                         },
                         {
                             drink: "Cacique",
-                            price: "4,00",
-                            status: 1
+                            price: "3,00",
+                            status: -1,
+                            blink: false
                         },
                         {
-                            drink: "Captain Morgan",
-                            price: "3,60",
-                            status: 0
+                            drink: "Legendario",
+                            price: "3,50",
+                            status: 0,
+                            blink: false
                         },
                         {
-                            drink: "Ritual",
-                            price: "2,80",
-                            status: -1
-                        }                        
+                            drink: "Negrita",
+                            price: "3,00",
+                            status: -1,
+                            blink: false
+                        }
                     ]
                 },
                 {
                     type: "WHISKY",
                     drinks: [
                         {
-                            drink: "Johnnie Walker",
-                            price: "3,80",
-                            status: -1
-                        },
-                        {
                             drink: "Ballantines",
-                            price: "3,60",
-                            status: 1
+                            price: "4,00",
+                            status: 1,
+                            blink: false
                         },
                         {
                             drink: "J&B",
-                            price: "3,40",
-                            status: 1
+                            price: "3,00",
+                            status: -1,
+                            blink: false
                         },
                         {
                             drink: "Cutty Sark",
-                            price: "3,80",
-                            status: 1
+                            price: "4,00",
+                            status: 1,
+                            blink: false
                         },
                         {
                             drink: "Dyc8",
+                            price: "3,50",
+                            status: 0,
+                            blink: false
+                        },
+                        {
+                            drink: "Four Roses",
                             price: "3,00",
-                            status: 1
-                        }                        
+                            status: -1,
+                            blink: false
+                        }
                     ]
                 },
                 {
@@ -70,29 +79,34 @@ export const dataDrinks = {
                     drinks: [
                         {
                             drink: "Beefeater",
-                            price: "3,40",
-                            status: -1
+                            price: "3,00",
+                            status: -1,
+                            blink: false
                         },
                         {
                             drink: "Larios",
-                            price: "3,20",
-                            status: -1
+                            price: "4,00",
+                            status: 1,
+                            blink: false
                         },
                         {
                             drink: "Tanqueray",
-                            price: "3,60",
-                            status: 1
+                            price: "4,00",
+                            status: 1,
+                            blink: false
                         },
                         {
                             drink: "Bombay",
-                            price: "3,80",
-                            status: 0
+                            price: "4,00",
+                            status: 0,
+                            blink: false
                         },
                         {
-                            drink: "Rives",
+                            drink: "Gordons",
                             price: "3,00",
-                            status: -1
-                        }                        
+                            status: -1,
+                            blink: false
+                        }
                     ]
                 },
                 {
@@ -100,85 +114,91 @@ export const dataDrinks = {
                     drinks: [
                         {
                             drink: "Absolut",
-                            price: "3,20",
-                            status: -1
+                            price: "3,00",
+                            status: -1,
+                            blink: false
                         },
                         {
                             drink: "Smirnoff",
-                            price: "3,60",
-                            status: 1
-                        },
-                        {
-                            drink: "Yurinka",
-                            price: "2,80",
-                            status: -1
-                        }                      
+                            price: "3,50",
+                            status: 0,
+                            blink: false
+                        }                     
                     ]
                 }
             ]
         },
         {
             scenary: 2,
-            time: 900000,
             contain: [
                 {
                     type: "RON",
                     drinks: [
                         {
                             drink: "Barceló",
-                            price: "2,60",
-                            status: -1
+                            price: "3,50",
+                            status: 0,
+                            blink: false
                         },
                         {
                             drink: "Brugal",
-                            price: "2,40",
-                            status: -1
+                            price: "3,00",
+                            status: -1,
+                            blink: false
                         },
                         {
                             drink: "Cacique",
                             price: "4,00",
-                            status: 0
+                            status: 1,
+                            blink: false
                         },
                         {
-                            drink: "Captain Morgan",
-                            price: "4,60",
-                            status: 1
+                            drink: "Legendario",
+                            price: "4,00",
+                            status: 1,
+                            blink: false
                         },
                         {
-                            drink: "Ritual",
-                            price: "3,80",
-                            status: 1
-                        }                        
+                            drink: "Negrita",
+                            price: "3,50",
+                            status: 0,
+                            blink: false
+                        }            
                     ]
                 },
                 {
                     type: "WHISKY",
                     drinks: [
                         {
-                            drink: "Johnnie Walker",
-                            price: "4,80",
-                            status: 1
-                        },
-                        {
                             drink: "Ballantines",
-                            price: "2,60",
-                            status: -1
+                            price: "3,50",
+                            status: 0,
+                            blink: false
                         },
                         {
                             drink: "J&B",
-                            price: "3,40",
-                            status: 0
+                            price: "2,50",
+                            status: -1,
+                            blink: true
                         },
                         {
                             drink: "Cutty Sark",
-                            price: "3,80",
-                            status: 0
+                            price: "3,50",
+                            status: 1,
+                            blink: false
                         },
                         {
                             drink: "Dyc8",
                             price: "3,00",
-                            status: 0
-                        }                        
+                            status: -1,
+                            blink: false
+                        },
+                        {
+                            drink: "Four Roses",
+                            price: "3,50",
+                            status: 0,
+                            blink: false
+                        }
                     ]
                 },
                 {
@@ -186,29 +206,34 @@ export const dataDrinks = {
                     drinks: [
                         {
                             drink: "Beefeater",
-                            price: "4,40",
-                            status: 1
+                            price: "4,00",
+                            status: 1,
+                            blink: false
                         },
                         {
                             drink: "Larios",
-                            price: "3,20",
-                            status: 0
+                            price: "3,00",
+                            status: -1,
+                            blink: false
                         },
                         {
                             drink: "Tanqueray",
-                            price: "2,60",
-                            status: -1
+                            price: "3,00",
+                            status: -1,
+                            blink: false
                         },
                         {
                             drink: "Bombay",
-                            price: "4,80",
-                            status: 1
+                            price: "3,50",
+                            status: -1,
+                            blink: false
                         },
                         {
-                            drink: "Rives",
-                            price: "4,00",
-                            status: 1
-                        }                        
+                            drink: "Gordons",
+                            price: "3,50",
+                            status: 0,
+                            blink: false
+                        }
                     ]
                 },
                 {
@@ -216,19 +241,143 @@ export const dataDrinks = {
                     drinks: [
                         {
                             drink: "Absolut",
-                            price: "4,20",
-                            status: 1
+                            price: "4,00",
+                            status: 1,
+                            blink: false
                         },
                         {
                             drink: "Smirnoff",
-                            price: "3,60",
-                            status: 0
+                            price: "3,00",
+                            status: -1,
+                            blink: false
+                        }              
+                    ]
+                }
+            ]
+        },
+        {
+            scenary: 3,
+            contain: [
+                {
+                    type: "RON",
+                    drinks: [
+                        {
+                            drink: "Barceló",
+                            price: "4,00",
+                            status: 1,
+                            blink: false
                         },
                         {
-                            drink: "Yurinka",
-                            price: "2,80",
-                            status: 0
-                        }                      
+                            drink: "Brugal",
+                            price: "3,50",
+                            status: 0,
+                            blink: false
+                        },
+                        {
+                            drink: "Cacique",
+                            price: "3,50",
+                            status: 0,
+                            blink: false
+                        },
+                        {
+                            drink: "Legendario",
+                            price: "3,00",
+                            status: -1,
+                            blink: false
+                        },
+                        {
+                            drink: "Negrita",
+                            price: "3,00",
+                            status: -1,
+                            blink: false
+                        }            
+                    ]
+                },
+                {
+                    type: "WHISKY",
+                    drinks: [
+                        {
+                            drink: "Ballantines",
+                            price: "3,00",
+                            status: -1,
+                            blink: false
+                        },
+                        {
+                            drink: "J&B",
+                            price: "4,00",
+                            status: 1,
+                            blink: false
+                        },
+                        {
+                            drink: "Cutty Sark",
+                            price: "3,50",
+                            status: 0,
+                            blink: false
+                        },
+                        {
+                            drink: "Dyc8",
+                            price: "3,50",
+                            status: 0,
+                            blink: false
+                        },
+                        {
+                            drink: "Four Roses",
+                            price: "4,00",
+                            status: 1,
+                            blink: false
+                        }
+                    ]
+                },
+                {
+                    type: "GINEBRA",
+                    drinks: [
+                        {
+                            drink: "Beefeater",
+                            price: "2,50",
+                            status: -1,
+                            blink: true
+                        },
+                        {
+                            drink: "Larios",
+                            price: "3,50",
+                            status: 0,
+                            blink: false
+                        },
+                        {
+                            drink: "Tanqueray",
+                            price: "3,50",
+                            status: 0,
+                            blink: false
+                        },
+                        {
+                            drink: "Bombay",
+                            price: "4,50",
+                            status: 1,
+                            blink: false
+                        },
+                        {
+                            drink: "Gordons",
+                            price: "4,00",
+                            status: 1,
+                            blink: false
+                        }
+                    ]
+                },
+                {
+                    type: "VODKA",
+                    drinks: [
+                        {
+                            drink: "Absolut",
+                            price: "3,00",
+                            status: -1,
+                            blink: false
+                        },
+                        {
+                            drink: "Smirnoff",
+                            price: "3,00",
+                            status: -1,
+                            blink: false
+                        }              
                     ]
                 }
             ]
