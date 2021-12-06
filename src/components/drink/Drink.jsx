@@ -6,7 +6,7 @@ import img_pub from '../../assets/logo_pub_3.svg';
 import { faCaretDown, faCaretRight, faCaretUp } from '@fortawesome/free-solid-svg-icons';
 
 
-const Drink = ({ drinks, type, time }) => {
+const Drink = ({ drinks, type, time, changeScenary }) => {
 
     const [ blink, setBlink ] = useState(true);
 
@@ -16,6 +16,10 @@ const Drink = ({ drinks, type, time }) => {
         }, 800);
         return () => clearInterval(blk);
     })
+
+    const handleChangeScenary = () => {
+        if(changeScenary) changeScenary();
+    }
 
 
     return (
@@ -50,7 +54,7 @@ const Drink = ({ drinks, type, time }) => {
             </ul>
             {type === 'VODKA' && (
                 <div className="container-footer">
-                    <img className="styled_logo" src={img_pub} />
+                    <img onClick={handleChangeScenary} className="styled_logo" src={img_pub} />
                     <span className="styled-count">{`${time[0].toString().padStart(2, '0')}:${time[1].toString().padStart(2, '0')}`}</span>
                 </div>
             )}

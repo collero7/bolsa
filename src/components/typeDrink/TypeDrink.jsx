@@ -7,7 +7,7 @@ import Drink from '../drink/Drink';
 const TypeDrink = ({ data }) => {
 
     
-    const hoursMinSecs = {minutes: 2, seconds: 40};
+    const hoursMinSecs = {minutes: 20, seconds: 0};
     const { minutes = 0, seconds = 60 } = hoursMinSecs;
     const [[mins, secs], setTime] = useState([minutes, seconds]);
     
@@ -18,7 +18,7 @@ const TypeDrink = ({ data }) => {
 
     const tick = () => {   
         if (mins === 0 && secs === 0) 
-            reset()
+            reset();
         else if (mins === 0 && secs === 0) {
             setTime([59, 59]);
         } else if (secs === 0) {
@@ -39,6 +39,9 @@ const TypeDrink = ({ data }) => {
         console.log("TERMINO");
     }
 
+    const handleChangeScenary = () => {
+        reset();
+    }
     
     useEffect(() => {
         const timerId = setInterval(() => tick(), 1000);
@@ -54,7 +57,7 @@ const TypeDrink = ({ data }) => {
                     <div key={pos} className="container-type-drink">
                         <div>
                             <span className="style-title">{elem.type}</span>
-                            <Drink drinks={elem.drinks} type={elem.type} time={[mins, secs]}/>
+                            <Drink drinks={elem.drinks} type={elem.type} time={[mins, secs]} changeScenary={handleChangeScenary}/>
                         </div>
                     </div>
                 ))}
