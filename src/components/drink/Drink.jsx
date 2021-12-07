@@ -28,7 +28,7 @@ const Drink = ({ drinks, type, time, changeScenary }) => {
                 {drinks.map((elem, pos) => (
                     <React.Fragment key={pos}>
                         <li className="li-style">
-                            <div style={{ color: ` ${elem.status === 1 ? '#2CF87C' : elem.status === -1 ? '#FF2525' : 'orange'}`}} className="container-elements">
+                            <div style={{ color: ` ${elem.status === 1 ? '#2CF87C' : elem.status === -1 ? '#FF6F6F' : 'orange'}`}} className="container-elements">
                                 {(blink && elem.blink) && (
                                     <>
                                     <span>{elem.drink}</span>
